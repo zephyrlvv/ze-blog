@@ -1,14 +1,24 @@
 {
-  "name": "myBlog",
+  "name": "ze-blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zephyrlvv/ze-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zephyrlvv/ze-blog/issues"
+  },
+  "homepage": "https://github.com/zephyrlvv/ze-blog#readme",
   "devDependencies": {
-    "vuepress": "1.8.2",
-    "vuepress-theme-reco": "1.6.10"
-  },
-  "description": "myBlog"
+    "vuepress": "^2.0.0-beta.35"
+  }
 }
